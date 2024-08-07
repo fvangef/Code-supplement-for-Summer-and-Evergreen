@@ -4,7 +4,7 @@ The geotiff images are there as an example of the data format needed to apply th
 
 The trained RFs are for the early summer season (ES), the peak summer season (PS) and the late summer season (LS). The average precision we achieved with these trained RFs on the separate SiDroTest set was 63%, 89% and 99% respectively. When all three seasons are combined the average accuracy was 82%. These are the exoected results when used on new data. The late summer is the best season to use, also when predicting on S-2 data from other seasons. 
 
-The repositors alos contains a trained RF for the LS season with an extra class for the non forested classes masked out. That class is class 9 and contains the value -999. 
+The repository alos contains a trained RF for the LS season with an extra class for the non forested classes masked out. That class is class 9 and contains the value -999. 
 
 There is a jupyter notebook that shows how to load and use the RFs to predict on an S-2 image. For questions please contact: femke.van.geffen@gmail.com
 
