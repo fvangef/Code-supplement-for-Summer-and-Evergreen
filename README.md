@@ -1,6 +1,8 @@
 
 This is the repository that contains the code, a trained Random Forests and two Sentinel-2 (S-2) geotiff files for the region Bibibino and Yakusk, both located in Eastern Siberia. 
-The geotiff images are there as an example of the data format needed to apply the trained RF to. We used a 11-band geotiff file.
+The geotiff images are there as an example of the data format needed to apply the trained RF to. We used an 11-band geotiff file.
+
+The SiDroForest dataset was used to predict on. Githib has a strict file size limit. I have uploaded cropped versions, not exceeding 25MB here of the Bilibino and Yakutsk regions. The full S-2 images can be downloaded here: van Geffen, Femke; Geng, Rongwei; Pflug, Bringfried; Kruse, Stefan; Pestryakova, Luidmila A; Herzschuh, Ulrike; Heim, Birgit (2021): SiDroForest: Sentinel-2 Level-2 Bottom of Atmosphere labelled image patches with seasonal information for Central Yakutia and Chukotka vegetation plots (Siberia, Russia) [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.933268
 
 The trained RFs are for the early summer season (ES), the peak summer season (PS) and the late summer season (LS). The average precision we achieved with these trained RFs on the separate SiDroTest set was 63%, 89% and 99% respectively. When all three seasons are combined the average accuracy was 82%. These are the exoected results when used on new data. The late summer is the best season to use, also when predicting on S-2 data from other seasons. 
 
